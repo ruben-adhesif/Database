@@ -1,0 +1,9 @@
+Pour push un commit :
+-aller dans un folder prévu (.git en cache dedans)
+-git add ./{fichier à push}
+-git commit -m "{nom du commit}"
+-git push origin main
+
+Pour crée un folder :
+-mkdir {nom du folder local}
+-
