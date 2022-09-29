@@ -6,4 +6,23 @@ Pour push un commit :
 
 Pour crée un folder :
 -mkdir {nom du folder local}
--
+-git remote add {name on branch} {url on git}
+
+Git instruction
+Basic
+	init		creat new local GIT repository
+	clone		copy a repository
+	add		add file to next commit
+	diff		list changes & conflicts
+	commit		"compile"/creat a snapshot of the add's files
+	status		show what is on the commit
+	push		push local changes to git
+
+Git branching & Merging
+	merge		merge specific brach into current branch
+	log		show log
+	branch		list the branches (ls)
+	checkout	switch other branch (cd)
+	fetch		get all changes from the origin
+	pull		get all last changes from origin & merge
+	push		send/upload to the gt repo
