@@ -4,9 +4,14 @@ Pour push un commit :
 -git commit -m "{nom du commit}"
 -git push origin main
 
-Pour crée un folder :
+Pour initialiser folder :
 -mkdir {nom du folder local}
--git remote add {name on branch} {url on git}
+-git init {url}
+-git remote add {name on branch} {url on git}	//nommer nouvelle branche
+
+Pour cloner folder:
+-git clone {url}
+
 
 Git instruction
 Basic
